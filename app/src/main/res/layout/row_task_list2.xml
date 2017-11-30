@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="1dp">
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Atividade" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="name2" />
+
+        <ImageView
+            android:id="@+id/image_remove_treino"
+            android:layout_width="135dp"
+            android:layout_height="20dp"
+            android:src="@drawable/remove" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        >
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Data" />
+
+        <TextView
+            android:id="@+id/text_data"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="name" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#F28C27" />
+</LinearLayout>

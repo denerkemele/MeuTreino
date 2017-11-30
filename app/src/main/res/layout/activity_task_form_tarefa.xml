@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_task_form_tarefas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.devmasterteam.tasks.com.meutreino.tasks.views.TaskFormActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="70dp"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#0000FF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="Atividade" />
+
+
+            <TextView
+                android:id="@+id/edit_tarefa"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/atividadeNova"
+                android:lines="2" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#0000FF" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="Circuito" />
+
+
+            <TextView
+                android:id="@+id/edit_circuito"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/circuito"
+                android:lines="2" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#0000FF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="Duração (seg)" />
+
+
+            <TextView
+                android:id="@+id/edit_tempo"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/tempo"
+                android:lines="2" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#0000FF" />
+
+
+
+        <Button
+            android:id="@+id/button_set_tempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settempo" />
+
+    </LinearLayout>
+
+</LinearLayout>
