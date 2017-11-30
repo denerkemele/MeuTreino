@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="70dp"
+        android:layout_margin="60dp"
         android:orientation="vertical">
 
         <View
@@ -36,7 +36,7 @@
 
             <TextView
                 android:id="@+id/edit_tarefa"
-                android:layout_width="100dp"
+                android:layout_width="188dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/atividadeNova"
                 android:lines="2" />
@@ -68,7 +68,7 @@
 
             <TextView
                 android:id="@+id/edit_circuito"
-                android:layout_width="100dp"
+                android:layout_width="173dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/circuito"
                 android:lines="2" />
