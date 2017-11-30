@@ -13,8 +13,8 @@ import android.widget.Toast
 import com.devmasterteam.tasks.R
 
 class AlarmReceiver : BroadcastReceiver() {
-    internal var notificationManager: NotificationManager
-    internal var myNotification: Notification
+    internal lateinit var notificationManager: NotificationManager
+    internal lateinit var myNotification: Notification
 
 
     override fun onReceive(context: Context, intent: Intent) {
